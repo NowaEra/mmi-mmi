@@ -20,24 +20,9 @@
     ],
     "require": {
         "php": ">=7.0.0",
-        "ext-bcmath": "*",
-        "ext-date": "*",
-        "ext-exif": "*",
-        "ext-fileinfo": "*",
-        "ext-gd": "*",
-        "ext-hash": "*",
-        "ext-iconv": "*",
-        "ext-json": "*",
-        "ext-ldap": "*",
-        "ext-mbstring": "*",
-        "ext-pcre": "*",
-        "ext-pdo": "*",
-        "ext-reflection": "*",
-        "ext-session": "*",
-        "ext-spl": "*",
         "monolog/monolog": "1.*",
         "graylog2/gelf-php": "1.5.*",
-        "symfony/console": "^3.3"
+        "nowaera/mmi-core": "dev-master@dev"
     },
     "require-dev": {
         "php-console/php-console": "~3.1",

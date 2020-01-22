@@ -14,6 +14,8 @@ use Mmi\Http\ResponseTimingHeader;
 
 /**
  * Klasa rozruchu aplikacji
+ *
+ * @deprecated
  */
 class Bootstrap implements BootstrapInterface
 {

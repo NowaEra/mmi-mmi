@@ -1,0 +1,23 @@
+services:
+    Mmi\App\Validator\Alnum: ~
+    Mmi\App\Validator\Checked: ~
+    Mmi\App\Validator\Csrf:
+        tags:
+            - { name: "validator", alias: "csrf" }
+    Mmi\App\Validator\Date: ~
+    Mmi\App\Validator\EmailAddress: ~
+    Mmi\App\Validator\EmailAddressList: ~
+    Mmi\App\Validator\Equal: ~
+    Mmi\App\Validator\Iban: ~
+    Mmi\App\Validator\Integer: ~
+    Mmi\App\Validator\Ip4: ~
+    Mmi\App\Validator\Ip6: ~
+    Mmi\App\Validator\Json: ~
+    Mmi\App\Validator\NotEmpty: ~
+    Mmi\App\Validator\NumberBetween: ~
+    Mmi\App\Validator\Numeric: ~
+    Mmi\App\Validator\Postal: ~
+    Mmi\App\Validator\RecordUnique: ~
+    Mmi\App\Validator\Regex: ~
+    Mmi\App\Validator\Sequence: ~
+    Mmi\App\Validator\StringLength: ~
